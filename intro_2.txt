@@ -1,0 +1,36 @@
+ML Steps:
+
+irrespective of classification/regression 5 steps is followed:
+	1. Data collection
+	2. Data preparation and exploration
+	3. Model Creation
+	4. Performance Evaluation
+	5. model improvement and deployment
+
+Data Collection:
+	Data Sources: GIT,Kaggle
+
+Data preparation and exploration:
+	- Exploration: Data visualisation
+	- Preparation: Data preprocessing- data cleaning, missing data handling
+
+Model creation:
+	- training of data
+
+Performance evaluation- accuracy,drawbacks of model
+
+Model improvement: improve if any issues
+
+
+Before model creation we separate the data set into and training data
+
+Training and Testing Data:
+	Training Data: the data which is used to teach the machine- 70% of data set is used as training data
+	Testing Data: Data used to test the machine if it has learnt- 30%
+	
+
+Features:
+	i/p feature/ i/p label: For supervised Ml, the input column is referred to as i/p feature/ i/p label
+	o/p feature: the o/p column eg: species,sepal length,colour
+	class labels: the o/p or the category to which is predicted eg:iris setosa,iris virginica
+

@@ -1,0 +1,8 @@
+Accuracy Score:
+
+	- a performace evaluation method
+	- based on the confusion matrix
+
+	- Accuracy_score = (TP+TN)/(TP+TN+FP+FN)
+	- if the score is >70%, the created model is good
+			<70%, model requires improvement

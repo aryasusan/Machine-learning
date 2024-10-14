@@ -1,0 +1,51 @@
+Supervised ML:
+	teaches with various I/ps and o/ps and create a model to predict
+
+Classification Algorithm:
+	to predict a categorical data ie, 0/1,yes/no,true/false, or any category
+	
+1. KNN(K-Nearest Neighbors) k refers to the number we define and n should be odd number
+	- a supervised classification/regression algorithm
+	- based on distance/Euclidean distance formula:  square root of (x2-x1)^2 + (y2-y1)^2
+	- refer KNN screeshot
+	- refer predict_diabetic in collab:	
+
+import numpy as np
+import pandas as pd
+df=pd.read_csv('/content/diabetes.csv')
+df
+x=df.iloc[:,:-1].values # separate inputs and converts to array, i/p always shud be 2D
+x
+y=df.iloc[:,-1].values #separate output,o/p always shud be 1D
+y.ndim
+# convert dataset(both i/p and o/p) to training and testing data
+from sklearn.model_selection import train_test_split
+x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.30) #30% for test data
+
+# normalisation- process which normalises all columns, while predicting the machine should not take a single column for result, all column should be taken into account- all values will be in same range after normalisation
+
+2 Types of normalisation:
+
+	A. Standard scaler
+	B. Min-Max Scaler
+	
+Standard Scaler:
+	z=(x-u)/s   x-original value, u-mean of training data, s-standard deviation of training data
+
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler() # creating object
+scaler.fit(x_train) # collect x_train data
+x_train = scaler.transform(x_train) # z=(x-u)/s is applied in transform function
+x_test = scaler.transform(x_test)
+
+
+# KNN Model creation
+
+from sklearn.neighbors import KNeighborsClassifier
+model = KNeighborsClassifier(n_neighbors=7)
+model.fit(x_train,y_train)
+y_predict = model.predict(x_test)
+y_predict
+
+print(model.predict(scaler.transform([[3,120,72,35,5,30,0.45,50]]))) # random values prediction
+

@@ -1,0 +1,27 @@
+Performance Evaluation method of Classification Algorithm:
+	1. Accuracy Score
+	2. Recall
+	3. precision
+	4. F1_Score
+
+The above methods is based on a matrix.
+
+Confusion Matrix:
+	- has 4 technical terms
+		- TP -true Positive
+		- TN- True Negative
+		- FP- False Positive
+		- FN- False Negative
+	-True Positive: 1 as 1 predicted o/p(y_pred) and actual o/p(y_test) is 1. eg, patient is diabetic and m/c predicted as diabetic itself
+	-True Negative: 0 as 0 predicted o/p(y_pred) and actual o/p(y_test) is 0. eg, patient is not diabetic and m/c predicted as non-diabetic
+	-False Positive:0 as 1 predicted o/p(y_pred)is 1 and actual o/p(y_test) is 0. eg, patient is not diabetic and m/c predicted as diabetic
+	-False Negative: 1 as 0 predicted o/p(y_pred)is 0 and actual o/p(y_test) is 1. eg, patient is diabetic and m/c predicted as non-diabetic
+
+eg: refer confusion_matrix.png		
+
+The order of confusion matrix differs based on the number of predicted o/ps
+commonly for classification algo, confusion matrix  will be 2*2 matrix =>  TP FP  =>	20 7
+									   FN FP        3 10
+
+
+

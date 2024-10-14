@@ -1,0 +1,37 @@
+Machine Learning
+
+- teaches machine new info so that machine can interpret those without human help when encountered
+- based on data set
+2 Types of pgming lang:
+	- traditional programming: input>logic>output
+	- ML programming: teaches both input and output
+
+2 Types of ML:
+	- supervised ML
+	- unsupervised ML: will have only input samples and we generate o/p to each i/p and then perform supervised ML to predict
+			: algo used is clustering which is grouping
+			: real time eg: market segmentation- notifications send to reliance customers is based on grouping 
+
+Supervised ML:
+	-trains a machine with various inputs and corresponding outputs and create a model with algorithms to predict an output when encountered
+	- algorithms:
+		- decision tree
+		- linear regression
+		- random forest
+		- logistic regression
+		- naive bayes algorithm
+		- support vector machine
+		- KNN
+	- 2 types of supervised ml algorithm:
+		- classification: if data to be predicted is categorical data ie, to predict true/false , yes/no, 0/1
+		- regression
+	
+		To predict a categorical data:
+			-KNN- KNearest Neighbour
+			-Naive Bayes algorithm
+
+			-SVM Support vector Machine
+			-Decision tree
+			- random forest
+	
+
