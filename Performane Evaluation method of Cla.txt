@@ -24,4 +24,7 @@ commonly for classification algo, confusion matrix  will be 2*2 matrix =>  TP FP
 									   FN FP        3 10
 
 
+Continued in accuracy score file
+
+
 

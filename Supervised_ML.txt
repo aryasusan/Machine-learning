@@ -20,7 +20,7 @@ y=df.iloc[:,-1].values #separate output,o/p always shud be 1D
 y.ndim
 # convert dataset(both i/p and o/p) to training and testing data
 from sklearn.model_selection import train_test_split
-x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.30) #30% for test data
+x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.30,random_state=42) #30% for test data
 
 # normalisation- process which normalises all columns, while predicting the machine should not take a single column for result, all column should be taken into account- all values will be in same range after normalisation
 
@@ -48,4 +48,6 @@ y_predict = model.predict(x_test)
 y_predict
 
 print(model.predict(scaler.transform([[3,120,72,35,5,30,0.45,50]]))) # random values prediction
+
+continued in performace Evaluation file
 
