@@ -1,0 +1,28 @@
+Naive Bayes Algorithm:
+
+	-Supervised machine learning algorithm
+	-used for classification
+	-based on probability
+	-the classifiers works based on bayes theorem
+	-bayes theorem works on conditional probability
+
+conditional probability:
+	-probability of an event based on another event
+	-eg, probability of getting a red king from a deck of cards
+	P(A|B) =  P(A Intersection B)
+		 ---------------------
+			P(B)
+
+
+Bayes theorem:
+	-probability of occurrence and non-occurrence of an event
+	- P(A|B) = (P(B|A)*P(A)
+		  ---------------
+			P(B)
+
+	P(A|B) -POSTERIOR PROBABILITY
+	P(B|A) - LIKELIHOOD PROBABILITY
+	P(A)- PRIOR PROBABILITY
+	P(B) - MARGINAL PROBABILITY
+
+QUESTION: REFER PROBABILITY_q1.png and notebook solution	

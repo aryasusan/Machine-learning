@@ -1,23 +1,27 @@
 Accuracy Score:
 
 	- a performace evaluation method
-	- based on the confusion matrix
+	- based on the confusion metrics
 
 	- Accuracy_score = (TP+TN)/(TP+TN+FP+FN)
 	- if the score is >70%, the created model is good
 			<70%, model requires improvement
 
-#Performance_Evaluation
+#Performance_Evaluation:
+
 from sklearn.metrics import confusion_matrix
 cm =  confusion_matrix(y_test,y_predict)
 cm
 
-# Accuracy Score Calculation
+# Accuracy Score Calculation:
+
 from sklearn.metrics import accuracy_score
 score = accuracy_score(y_test,y_predict)
 score
 
 -The accuracy score differs in different machines and in different runtimes for same file. this is becz 70% used for training data is picked randomly.
+
+Random State:
 
 - Inorder to get same performance we can define how to choose the training and testing data, for this we use random_state which we define a value
 - experimentally proven that, if u give random_state value as 1,0,42 the machine performs well

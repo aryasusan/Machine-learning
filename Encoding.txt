@@ -1,0 +1,9 @@
+Encoding:
+	-conversion of inputs of type object to numerical type
+	- types:
+		- Label encoding
+		- one-hot encoding
+		- get dummies
+
+Label Encoding:
+	- machine assigns a value from 0 to n-1  to each input value

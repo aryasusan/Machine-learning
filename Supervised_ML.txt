@@ -10,6 +10,8 @@ Classification Algorithm:
 	- refer KNN screeshot
 	- refer predict_diabetic in collab:	
 
+	- if inputs are object type , convert into numerical value using encoding process and then do the following steps
+
 import numpy as np
 import pandas as pd
 df=pd.read_csv('/content/diabetes.csv')
