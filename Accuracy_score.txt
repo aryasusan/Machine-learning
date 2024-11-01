@@ -4,8 +4,11 @@ Accuracy Score:
 	- based on the confusion metrics
 
 	- Accuracy_score = (TP+TN)/(TP+TN+FP+FN)
-	- if the score is >70%, the created model is good
+	- if the data is balanced and if the score is >70%, the created model is good
 			<70%, model requires improvement
+	- if the data is imbalanced data(unequal data eg, more number of non-cancer data and less number of cancer data, the m/c will predict non cancer patient more accurately but might not 		predict cancer patient even if the accuracy score is 98%.)
+	- by taking value_count for the last column,we can find if the data is balanced or imbalanced. If the data is imbalanced, further performance evaluation methods needs to be applied
+	- imbalanced data can be converted to balanced data
 
 #Performance_Evaluation:
 

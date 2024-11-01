@@ -1,0 +1,29 @@
+Regression Model:
+
+	- to predict a numerical data
+	- eg: predict company stock market
+		predict salary based on years of experience
+	
+Independent Variable: other variable
+Dependent Variable : that variable which is to be predicted
+eg, predict salary based on years of experience: independent variable: salary, depen var: yrs of exp
+
+Simple Linear Regression Model:
+	- only one independent and dependent variable column
+	- eg: predict salary based on years of experience
+		predict interest rate based on credit score
+		predict rate of house based on square feet
+
+	Steps:
+		. A regression line will be drawn such that all points are connected. refer regression line.jpg
+		. prediction will be based on this regression model
+		. perpendicular lines will be drawn along x to meet at the regression line
+		. perpendicular line will be drawn to Y axis from the regreesion line point and that will be predicted value. refer predicted value regression.jpg
+		
+	- the model works on y=mx+c   m:slope of the line, x:independent variable, c:constant or y_intercept on x
+	- the difference between actual value and predicted value is called error
+	- in regression model, the performance evaluation is based on errors
+		
+
+Multiple linear regression model:
+	- 

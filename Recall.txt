@@ -1,0 +1,14 @@
+Recall:
+	- a performance evaluation method which gives more importance to False negative condition(1 as 0)
+	- Consider a situation where m/c predicts covid negative as negative
+					   		positive as positive
+					   		positive as negative
+					   		negative as positive
+ Here , the most dangerous situation to the society is predicting =covid positive as negative. 
+ In this situation Recall method is used to analyse the performance where the False negative condition is optimised
+
+- Recall value inversely proportional to False negative
+
+	Recall  =  TP
+		  -----
+		  TP+FN

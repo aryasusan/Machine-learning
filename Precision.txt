@@ -1,0 +1,7 @@
+Precision:
+	- Gives importance to False Positive eg, patient predicted as cancer positive instead of cancer negative
+	- Precision value inversely proportional to False positive
+		
+Precision  =  TP
+	     -----
+	     TP+FP

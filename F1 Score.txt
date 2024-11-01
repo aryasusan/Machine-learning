@@ -1,0 +1,57 @@
+F1 Score:
+
+	- combination of Recall and precision
+
+F1_score = 2 * [(recall * precision) / (recall + precision) ]
+
+- Macro average recall: average of recall(1) and recall(0)
+- Macro average precision: average of precision(1) and precision(0)
+- Macro average f1_score: average of f1_score(1) and f1_score(0)
+
+Weighted average:
+	- support: the count of each category 
+	weighted average recall =  recall(1) * support(1) + recall(0) * support(0)
+			          ---------------------------------------------------
+					total no.of observations
+
+
+
+Calculate recall, precision and f1 score:
+
+[39 20]
+[16 79]
+
+TP = 39
+TN = 79
+FP = 20
+FN = 16
+
+
+recall(1) =   TP
+	   --------  = 0.709
+	    TP + FN
+
+
+recall(0) =  TN
+	    -----     = 0.79
+	    TN + FP
+
+
+precision(1) =   TP
+	   	--------  = 0.66
+	    	TP + FP
+
+
+precision(0) =  TN
+	    	-----     = 0.83
+	    	TN + FN
+
+
+f1(1) = 0.67
+f1(0) = 0.80
+
+Macro average recall= (0.67 + 0.80)/2  = 0.74
+
+macro average precision =  0.74
+
+macro average f_score =0.74

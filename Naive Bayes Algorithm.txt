@@ -26,3 +26,9 @@ Bayes theorem:
 	P(B) - MARGINAL PROBABILITY
 
 QUESTION: REFER PROBABILITY_q1.png and notebook solution	
+
+
+3 Classifiers:
+	- Gaussian: used when the data is continuous ie numerical datas
+	- Multinomial: when data is discrete, when i/p has both object and numerical data
+	- Bernouli: used for both discrete and continuous data

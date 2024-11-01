@@ -1,0 +1,17 @@
+Support Vector Machine (SVM)	
+	- used for classification supervised algo
+	- mainly for binary and image classification-
+		binary classification: 0/1, True/False, Yes/No 
+		image classification- mainly used by deep learning but ML can also be used
+
+Linearly separable line: is drawn to differentiate various areas, machine choses that one which is of maximum distance from both areas. refer image SVM_linearly_separable_line.png
+in that image line B will be selected.
+
+Hyper plain: linear separable line will be enclosed using a plane
+Support Vector: the points that is touched in the hyper plane. 
+
+refer images hyperplane and linearline
+
+# NOrmalisation
+# MinMax scaler:
+# x' = [x-min(x)]/[max(x)-min(x)]
